@@ -34,7 +34,7 @@ jupyter notebook TeamProject.ipynb
 
 The main purpose of this project is to determine whether the physicochemical properties of Vinho Verde wine, obtained through standard laboratory testing, can reliably predict wine quality classifications assigned by human tasting panels. Expert tasting panels are expensive, time-consuming, and inherently subjective; a data-driven model offers a scalable and objective alternative for winery quality control.
 
-This project applies a complete statistical pipeline connecting all seven modules of AAI-500 to a real-world business problem. The analysis demonstrates that two chemical measurements, **alcohol content (r = +0.44)** and **volatile acidity (r = -0.39)**, drive the majority of the quality signal. The Bayesian Network shows that combining high alcohol with low volatile acidity raises the posterior probability of good quality classification to **88.6%**. The GLM achieves AUC-ROC of **0.8250** on the held-out test set, and the Random Forest classifier achieves the highest accuracy at **78.3%**.
+This project applies a complete statistical pipeline connecting all seven modules of AAI-500 to a real-world business problem. The analysis demonstrates that **alcohol content (r = +0.47)** is the strongest positive linear signal, while **density (r = -0.33)** is the strongest negative linear signal and volatile acidity remains a substantial negative predictor of quality. The Bayesian Network shows that combining high alcohol with low volatile acidity raises the posterior probability of good quality classification to **88.6%**. The GLM achieves an AUC-ROC of **0.8233** on the held-out test set, and the Random Forest classifier achieves the highest classification accuracy at **78.3%**.
 
 ---
 
@@ -111,8 +111,8 @@ This project applies a complete statistical pipeline connecting all seven module
 | Central Limit Theorem | SE = 0.1677 from 5,000 samples of n=50 \| Confirms normality of sampling distribution |
 | Confidence Intervals | Alcohol Good [10.888, 10.969] vs Poor [9.875, 9.951] — non-overlapping |
 | Bayesian Network | High Alcohol + Low VA = 88.6% \| Low Alcohol + High VA = 17.3% |
-| GLM (Logistic Regression) | AUC-ROC = 0.8250 \| Accuracy = 0.7556 \| Recall = 0.8419 |
-| Best Classifier | Random Forest: Accuracy = 0.783 \| F1 Score = 0.780 |
+| GLM (Logistic Regression) | AUC-ROC = 0.8233 \| Accuracy = 0.7547 \| Recall = 0.8404 |
+| Best Classifier | Random Forest: Accuracy = 0.7829 \| F1 Score = 0.7801 |
 
 ### Data Dictionary
 
