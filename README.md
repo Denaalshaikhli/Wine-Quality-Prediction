@@ -150,7 +150,7 @@ This project was created for academic purposes as part of the AAI-500 course at 
 
 ## Acknowledgments
 
-We thank Professor Leon Spanner for his guidance throughout the AAI-500 course and for the statistical framework that shaped this analysis. We also acknowledge Paulo Cortez and co-authors for making the Wine Quality Dataset publicly available through the UCI Machine Learning Repository.
+We thank Professor Leon Shpaner for his guidance throughout the AAI-500 course and for the statistical framework that shaped this analysis. We also acknowledge Paulo Cortez and co-authors for making the Wine Quality Dataset publicly available through the UCI Machine Learning Repository.
 
 ---
 
