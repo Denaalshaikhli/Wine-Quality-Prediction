@@ -1,6 +1,6 @@
 # Wine Quality Prediction
 
-> README — GitHub Project Documentation
+> README GitHub Project Documentation
 
 This project is a part of the **AAI-500** course in the Applied Artificial Intelligence Program at the **University of San Diego (USD)**.
 
