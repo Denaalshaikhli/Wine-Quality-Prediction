@@ -48,7 +48,7 @@ This project applies a complete statistical pipeline connecting all seven module
 
 **GitHub:** https://github.com/Denaalshaikhli/Wine-Quality-Prediction
 
-**Instructor:** Professor Leon Spanner, University of San Diego
+**Instructor:** Professor Leon Shpaner, University of San Diego
 
 ---
 
